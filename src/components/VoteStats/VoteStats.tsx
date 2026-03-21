@@ -8,8 +8,8 @@ interface VoteStatsProps {
 
 export default function VoteStats({
    votes,
-   totalVotes = 0,
-   positiveRate = 0,
+   totalVotes,
+   positiveRate,
 }: VoteStatsProps) {
    return (
       <div className={css.container}>
